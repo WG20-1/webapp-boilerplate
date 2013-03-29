@@ -1,0 +1,13 @@
+{
+	"name": "webapp-boilerplate",
+	"version": "1.0.0",
+	"dependencies": {
+		"requirejs": null,
+		"jquery": null,
+		"handlebars": null,
+		"underscore-amd": null,
+		"backbone-amd": null
+	},
+	"devDependencies": {
+	}
+}

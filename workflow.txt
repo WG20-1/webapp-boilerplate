@@ -1,0 +1,14 @@
+# 0. platform installation
+
+## 0.1 mac os
+install brew 					ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+install git 					brew install git
+install nodejs					brew install nodejs
+
+# 1. project setup 
+clone boilerplate repo			git clone @todo
+install node modules			npm install
+install javascript modules		bower install
+
+# 2. build
+build app						./node_modules/requirejs/bin/r.js -o app/build/app.build.js

@@ -1,0 +1,10 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"dependencies": {
+		"requirejs": null
+	},
+	"scripts": {
+		"preinstall": "sudo npm install bower -g",
+	}
+}
