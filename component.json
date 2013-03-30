@@ -7,7 +7,5 @@
 		"handlebars": null,
 		"underscore-amd": null,
 		"backbone-amd": null
-	},
-	"devDependencies": {
 	}
 }

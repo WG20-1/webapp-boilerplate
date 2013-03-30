@@ -2,9 +2,10 @@
 	"name": "boilerplate",
 	"version": "1.0.0",
 	"dependencies": {
-		"requirejs": null
+		"requirejs": null,
+		"grunt": null
 	},
 	"scripts": {
-		"preinstall": "sudo npm install bower -g",
+		"preinstall": "sudo npm install bower grunt-cli -g"
 	}
 }

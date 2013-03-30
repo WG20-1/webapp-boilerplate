@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.2
+4 verbose read json /Users/antonin/Workspace/webapp-boilerplate/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/antonin/Workspace/webapp-boilerplate',
+6 verbose install   [ 'requirejs', 'gruntjs' ] ]
+7 error TypeError: Cannot call method 'replace' of null
+7 error     at /usr/local/lib/node_modules/npm/lib/install.js:149:41
+7 error     at Array.map (native)
+7 error     at /usr/local/lib/node_modules/npm/lib/install.js:147:29
+7 error     at /usr/local/lib/node_modules/npm/lib/install.js:273:16
+7 error     at fs.js:207:20
+7 error     at Object.oncomplete (fs.js:107:15)
+8 error If you need help, you may report this log at:
+8 error     <http://github.com/isaacs/npm/issues>
+8 error or email it to:
+8 error     <npm-@googlegroups.com>
+9 error System Darwin 12.3.0
+10 error command "node" "/usr/local/bin/npm" "install"
+11 error cwd /Users/antonin/Workspace/webapp-boilerplate
+12 error node -v v0.10.2
+13 error npm -v 1.2.15
+14 error type non_object_property_call
+15 verbose exit [ 1, true ]
