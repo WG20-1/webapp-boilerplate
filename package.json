@@ -1,9 +1,10 @@
 {
-	"name": "boilerplate",
+	"name": "webapp-boilerplate",
 	"version": "1.0.0",
 	"dependencies": {
 		"requirejs": null,
-		"grunt": null
+		"grunt": null,
+		"grunt-requirejs": null
 	},
 	"scripts": {
 		"preinstall": "sudo npm install bower grunt-cli -g"

@@ -9,12 +9,12 @@ It includes the following features:
 - AMD pattern (requirejs)
 - Basic libs (jquery, handlebars, underscorejs)
 - External code management (bowerjs)
-- Automatic code analysis (@todo)
+- Automated build process (grunt)
+- Automated code analysis (@todo)
 - Unit testing (@todo)
-- Build process (r.js)
-	- concats and minifies javascript files
-	- concats and minifies css files
-	- compress images (@todo)
+- Javascript compilation (r.js)
+- CSS concatenation and minification (r.js)
+- Images compression (@todo)
 
 
 # 1. platform installation
@@ -30,4 +30,4 @@ It includes the following features:
 - install javascript modules	`bower install`
 
 # 3. build
-- build app						`./node_modules/requirejs/bin/r.js -o app/build/app.build.js`
+- build app						`grunt`
