@@ -4,6 +4,7 @@
 	"dependencies": {
 		"requirejs": null,
 		"grunt": null,
+		"grunt-contrib-jshint": null,
 		"grunt-requirejs": null
 	},
 	"scripts": {
