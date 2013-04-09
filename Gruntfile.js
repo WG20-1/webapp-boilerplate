@@ -9,11 +9,11 @@ module.exports = function( grunt ) {
 		//
 		jshint: {
 			src: [
-				'app/scripts/*.js',
-				'app/scripts/models/*.js',
-				'app/scripts/collections/*.js',
-				'app/scripts/views/*.js',
-				'app/scripts/templates/*.js',
+				'src/scripts/*.js',
+				'src/scripts/models/*.js',
+				'src/scripts/collections/*.js',
+				'src/scripts/views/*.js',
+				'src/scripts/templates/*.js',
 			],
 			options: {
 				// Syntaxic rules
@@ -94,9 +94,9 @@ module.exports = function( grunt ) {
 		requirejs: {
 			dist: {
 				options: {
-					appDir: 'app/',
+					appDir: 'src/',
 					baseUrl: 'scripts',
-					mainConfigFile: 'app/scripts/main.js',
+					mainConfigFile: 'src/scripts/main.js',
 					name: 'main',
 					dir: 'dist',
 					optimize: 'uglify2',
@@ -107,9 +107,9 @@ module.exports = function( grunt ) {
 			},
 			dev: {
 				options: {
-					appDir: 'app/',
+					appDir: 'src/',
 					baseUrl: 'scripts',
-					mainConfigFile: 'app/scripts/main.js',
+					mainConfigFile: 'src/scripts/main.js',
 					name: 'main',
 					dir: 'dev',
 					optimize: 'none',
